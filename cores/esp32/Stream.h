@@ -52,7 +52,7 @@ public:
 
     Stream():_startMillis(0)
     {
-        _timeout = 1000;
+        _timeout = 10000;
     }
     virtual ~Stream() {}
 
