@@ -23,7 +23,7 @@
 
 // MQTT_MAX_PACKET_SIZE : Maximum packet size
 #ifndef MQTT_MAX_PACKET_SIZE
-#define MQTT_MAX_PACKET_SIZE 500
+#define MQTT_MAX_PACKET_SIZE 600 //Packet size increased to 600 to incorporate unified energy publish
 #endif
 
 // MQTT_KEEPALIVE : keepAlive interval in Seconds
